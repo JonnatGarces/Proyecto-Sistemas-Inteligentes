@@ -1,6 +1,7 @@
 # Proyecto-Sistemas-Inteligentes
 
 INTEGRANTES
+
 Danilo Edgan.
 
 Kevin Montoya.
