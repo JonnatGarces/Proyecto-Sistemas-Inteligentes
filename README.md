@@ -2,7 +2,7 @@
 
 INTEGRANTES
 
-Danilo Edgan.
+Danilo Egas.
 
 Kevin Montoya.
 
