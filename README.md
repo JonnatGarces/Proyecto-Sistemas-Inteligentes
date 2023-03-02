@@ -8,7 +8,7 @@ Kevin Montoya.
 
 Alejandro Espinoza.
 
-Brayan Rovira.
+Brayan Murillo.
 
 Jonnathan Garcés.
 
