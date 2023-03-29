@@ -23,7 +23,7 @@ CREATE TABLE Tratamientos (
    PRIMARY KEY (id)
 );
 
-CREATE TABLE Enfermdades_Sintomas(
+CREATE TABLE Enfermedades_Sintomas(
    enfermedades_id INT NOT NULL,
    sintomas_id INT NOT NULL,
    PRIMARY KEY (enfermedades_id, sintomas_id),
