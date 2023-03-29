@@ -1,0 +1,16 @@
+(Nombre)
+Sistema inteligente para agendar citas, que realice filtros de sintomas de enfermedades del sistema respiratorio.
+Enfermedades del sistema respiratorio
+
+Enfermedades infecciosas del tracto respiratorio superior (J00-J06)
+Gripe y neumonía (J10-J18)
+Enfermedades infecciosas de las vias respiratorias inferiores (J20-J22)
+Otras enfermedades de las vías respiratorias altas (J30-J39)
+Enfermedades crónicas de las vías respiratorias (J40-J47)
+Enfermedades pulmonares debidas a sustancias extrañas (J60-J70)
+Otras enfermedades intersticiales y necróticas (J80-J86)
+Otras enfermedades de la pleura (J90-J99).
+
+//link
+https://www.iqb.es/patologia/toc01.htm
+
