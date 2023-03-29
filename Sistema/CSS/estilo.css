@@ -1,0 +1,289 @@
+/* Estilos generales para el header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3eeee;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el logo */
+  header img {
+    height: 50px;
+    width: auto;
+  }
+  
+  /* Estilos para el menú de navegación */
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  header nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  /* Estilos de la sección hero */
+.hero {
+    background-image: url("Img/Pulmones.png");
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #080808;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #030303;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #fca311;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    text-decoration: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #e89f0d;
+  }
+
+  /* Estilos de la sección de dos columnas */
+.two-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .column-1 {
+    flex: 0 0 45%;
+  }
+  
+  .image-container {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .column-2 {
+    flex: 0 0 45%;
+  }
+  
+  .column-2 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .column-2 p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .column-2 a {
+    display: inline-block;
+    background-color: #fca311;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  .column-2 a:hover {
+    background-color: #e89f0d;
+  }
+
+  /* Estilos de la sección de galería */
+.gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .images-container img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .images-container img:hover {
+    transform: scale(1.1);
+  }
+
+  /* Estilos para la sección footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    font-size: 1.2rem;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 30px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-social {
+    display: flex;
+  }
+  
+  .footer-social a {
+    margin-right: 10px;
+  }
+  
+  .footer-social i {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  /* Estilos para los iconos de redes sociales */
+  
+  .footer-social a {
+    margin-right: 10px;
+  }
+  
+  .footer-social i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-indent: -9999px;
+  }
+  
+  .fa-facebook {
+    background-image: url('https://www.facebook.com/favicon.ico');
+  }
+  
+  .fa-twitter {
+    background-image: url('https://twitter.com/favicon.ico');
+  }
+  
+  .fa-instagram {
+    background-image: url('https://www.instagram.com/favicon.ico');
+  }
+  
+  .fa-linkedin {
+    background-image: url('https://www.linkedin.com/favicon.ico');
+  }
+  
+  form {
+    background-color: #f2f2f2;
+    padding: 12px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
