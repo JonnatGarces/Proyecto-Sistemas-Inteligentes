@@ -1,0 +1,45 @@
+¿Tiene dificultad para respirar?
+    Sí:
+        ¿Tiene dolor en el pecho?
+            Sí: 
+                ¿Tiene fiebre?
+                    Sí: 
+                        ¿Tiene tos con flema?
+                            Sí:
+                                ¿Tiene dolor de garganta?
+                                    Sí: Posible neumonía
+                                    No: Posible bronquitis
+                            No: Posible asma
+                    No: 
+                        ¿Tiene dificultad para respirar sin motivo aparente?
+                            Sí: Posible asma
+                            No: Posible enfermedad pulmonar obstructiva crónica (EPOC)
+        No:
+            ¿Tiene tos sin flema?
+                Sí: 
+                    ¿Tiene tos seca?
+                        Sí: Posible enfermedad por reflujo gastroesofágico
+                        No: Posible alergia
+                No: 
+                    ¿Tiene dolor en el pecho?
+                        Sí: Posible neumonía
+                        No: Posible enfermedad pulmonar obstructiva crónica (EPOC)
+    No:
+        ¿Tiene fiebre?
+            Sí: 
+                ¿Tiene tos con flema?
+                    Sí: 
+                        ¿Tiene dolor de garganta?
+                            Sí: Posible neumonía
+                            No: Posible bronquitis
+                    No: Posible asma
+            No:
+                ¿Tiene tos sin flema?
+                    Sí: 
+                        ¿Tiene tos seca?
+                            Sí: Posible enfermedad por reflujo gastroesofágico
+                            No: Posible alergia
+                    No: 
+                        ¿Tiene dolor en el pecho?
+                            Sí: Posible neumonía
+                            No: Posible enfermedad pulmonar obstructiva crónica (EPOC) 
