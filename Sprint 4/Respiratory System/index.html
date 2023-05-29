@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="estilo.css">
+<head>
+    <p><img src="logo.png" width="250" height="200" alt="" /></p>
+    <title> Sistema Respiratorio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Chat S.R</h1>
+    <div id="chat-container">
+        <div id="chat-log"></div>
+        <input type="text" id="user-input" placeholder="Hazme una pregunta">
+        <button onclick="sendMessage()">Preguntar</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var userInput = document.getElementById("user-input").value;
+            document.getElementById("user-input").value = "";
+
+            appendMessage("Tú", userInput);
+
+            // Llamar a la función en Python para obtener la respuesta
+            $.ajax({
+                type: "POST",
+                url: "/get_response",
+                data: { input: userInput },
+                success: function(response) {
+                    appendMessage("Chatbot", response);
+                },
+                error: function(xhr) {
+                    appendMessage("Chatbot", "¡Ha ocurrido un error!");
+                }
+            });
+        }
+
+        function appendMessage(sender, message) {
+            var chatLog = document.getElementById("chat-log");
+            var messageElement = document.createElement("p");
+            messageElement.innerHTML = "<strong>" + sender + ": </strong>" + message;
+            chatLog.appendChild(messageElement);
+        }
+    </script>
+</body>
+</html>

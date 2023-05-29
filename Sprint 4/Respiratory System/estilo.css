@@ -1,0 +1,92 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    background-color: #a4e3ee;
+    margin: 0;
+    padding: 20px;
+
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #a4e3ee;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a4e3ee;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #a4e3ee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Estilos específicos para la respuesta del chatbot */
+  .chatbot-response {
+    margin-top: 20px;
+    border: 1px solid #a4e3ee;
+    border-radius: 4px;
+    padding: 10px;
+    background-color:#a4e3ee;
+  }
+  head{
+    margin-top: 20px;
+    border: 1px solid #a4e3ee;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #a4e3ee;
+    text-align: left;
+  }
+  * {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	margin: auto;
+	width: 600px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+.nav>li {
+	float: left;
+	font-size: 16px;
+}
+
+header {
+    padding: 20px 0 0 0;
+    text-align: right;
+}
+body{
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+}
