@@ -5,13 +5,21 @@ Este prototipo de la Aplicacion es una pagina web donde por medio de la selecion
 
 # Librerias Utilizadas
 decorator==5.1.1
+
 Django==4.1.7
+
 executing==1.2.0
+
 ipykernel==6.21.2
+
 ipython==8.11.0
+
 jedi==0.18.2
+
 jupyter_client==8.0.3
+
 jupyter_core==5.2.0
+
 matplotlib-inline==0.1.6
 
 INTEGRANTES
