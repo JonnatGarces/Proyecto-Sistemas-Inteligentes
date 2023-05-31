@@ -22,7 +22,7 @@ jupyter_core==5.2.0
 
 matplotlib-inline==0.1.6
 
-INTEGRANTES
+# INTEGRANTES
 
 Danilo Egas.
 
